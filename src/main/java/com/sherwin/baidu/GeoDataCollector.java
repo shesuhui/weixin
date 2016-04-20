@@ -28,7 +28,7 @@ public class GeoDataCollector {
 		String ecKW = URLEncoder.encode(keyWords, "UTF-8");
 		StringBuffer serviceUrl = new StringBuffer();
 		serviceUrl.append("/place/v2/search?").append("query=").append(ecKW).append("&").append("region=")
-				.append(encodedCity).append("&").append("scope=1").append("&page_size=20").append("&page_num=").append(page_num).append(fixedParam);
+				.append(encodedCity).append("&").append("scope=1").append("&page_size=10").append("&page_num=").append(page_num).append(fixedParam);
 		return  invoke(serviceUrl.toString());
 	}
 	
