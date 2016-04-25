@@ -6,8 +6,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>法治资源查询</title>
 </head>
-<script language="javascript"
-	src="http://code.jquery.com/jquery-1.7.2.js"></script>
+<!-- script language="javascript"src="http://code.jquery.com/jquery-1.7.2.js"></script-->
+<script language="javascript"src="js/jquery-1.7.2.js"></script>
 <body>
 	请输入查询关键字：
 	<input id="keyword"  onkeydown="if(event.keyCode==13){$('#query').click();return false;}" ></input>
