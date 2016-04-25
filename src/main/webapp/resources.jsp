@@ -10,7 +10,7 @@
 	src="http://code.jquery.com/jquery-1.7.2.js"></script>
 <body>
 	请输入查询关键字：
-	<input id="keyword"></input>
+	<input id="keyword"  onkeydown="if(event.keyCode==13){$('#query').click();return false;}" ></input>
 	<button id='query' type="button">查询</button>
 	<div id='page'></div>
 	<table>
